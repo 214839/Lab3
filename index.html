@@ -1,0 +1,115 @@
+<html>
+<head>
+<title> Lab 3 </title>
+<script src="Scripts/processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+
+void setup(){
+
+size(300,300);
+background(0,0,0);
+frameRate( 30 );
+
+//BORDER 1
+stroke(0,255,0);
+strokeWeight(21);
+line(1,1,1,298);
+
+//BORDER 2
+stroke(0,255,0);
+strokeWeight(20);
+line(1,1,298,1);
+
+//BORDER 3
+stroke(0,255,0);
+strokeWeight(20);
+line(298,1,298,298);
+
+//BORDER 4
+stroke(0,255,0);
+strokeWeight(20);
+line(298,298,1,298);
+
+//LINE 1
+stroke(0,255,0);
+strokeWeight(20);
+line(60,1,60,120);
+
+//LINE 2
+stroke(0,255,0);
+strokeWeight(20);
+strokeCap(SQUARE);
+line(60,150,60,120);
+ 
+ //LINE 3
+stroke(0,255,0);
+strokeWeight(21);
+strokeCap(SQUARE);
+line(60,268,60,180);
+
+//LINE 4
+stroke(0,255,0);
+strokeWeight(20);
+strokeCap(SQUARE);
+line(60,259,248,259);
+
+//LINE 5
+stroke(0,255,0);
+strokeWeight(20);
+strokeCap(SQUARE);
+line(239,259,239,175);
+
+//LINE 6
+stroke(0,255,0);
+strokeWeight(20);
+line(239,1,239,154)
+
+//LINE 7
+stroke(0,0,255);
+strokeWeight(20);
+strokeCap(SQUARE);
+line(105,228,105,181);
+
+//LINE 8
+stroke(0,0,255);
+strokeWeight(20);
+line(105,30,105,150);
+
+//LINE 9
+stroke(0,0,255);
+strokeWeight(20);
+line(95,40,200,40);
+
+//LINE 10
+stroke(0,0,255);
+strokeWeight(20);
+line(191,40,191,228);
+
+//LINE 10
+stroke(0,0,255);
+strokeWeight(20);
+line(191,165,228,165);
+
+//TEXT 1
+text("START",45,170);
+
+//TEXT 2
+text("END",232,170);
+
+}
+
+
+void draw()
+{
+
+}
+
+</script>
+<canvas id="mycanvas"></canvas>
+</head>
+
+<body>
+
+</body>
+</html>
+
